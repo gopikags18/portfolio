@@ -1,0 +1,46 @@
+*{
+margin:0px;
+padding: 0px;
+
+}
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+
+#resume{
+    font-size: 25px;
+    border: 0px solid white;
+    height: 200px;
+    width: 450px;
+    text-align: justify;
+    
+}
+
+h1{
+    color:rgb(6, 45, 6);
+    font-weight: bold;
+    font-family: "Engagement", serif;
+    font-size: 70px;
+}
+p{
+    font-weight: bold;
+}
+#btn{
+    margin-left: 50px;
+height: 50px;
+width: 200px;
+font-size: 25px;
+font-weight: bold;
+border-radius: 10px;
+background-color: black;
+color: goldenrod;
+}
+
+#woman{
+    margin-top: 100px;
+}

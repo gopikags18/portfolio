@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Charm", serif;
+  /* font-size: 25px; */
+  /* font-weight: bold; */
+}
+/* -----------------------------------------------------Nav bar section ------------------------------------------------------------------- */
+#section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 50px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 20px 0px 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(6, 6, 64);
+  font-weight: 600;
+  padding: 20px;
+  font-family: "Charm", serif;
+}
+nav ul li a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+/* -----------------------------------------------------Home section ------------------------------------------------------------------- */
+
+#home {
+  margin: 30px 0px 0px 120px;
+  /* position: relative; */
+}
+.home_contents {
+  margin-top: 200px;
+}
+#homeheading {
+  font-family: "Engagement", serif;
+  font-size: 70px;
+  margin-bottom: 30px;
+  /* color: rgb(8, 78, 8); */
+}
+#surname {
+  font-family: "Engagement", serif;
+  color: goldenrod;
+}
+#cv {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-left: 30px; */
+  display: inline-block;
+}
+
+.home_image {
+  height: 75%;
+  width: 45%;
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+}
+.imge {
+  position: absolute;
+  height: 100%;
+  bottom: 0px;
+  left: 30px;
+  transform: translateX(-50%);
+  transition: bottom 2s, left 1s;
+}
+
+.home_image:hover #shape{
+    bottom: 80px;
+}
+
+.home_image:hover #woman{
+   left :30%;
+}
+
+
+/* -----------------------------------------------------About section ------------------------------------------------------------------- */
+
+
+#about{
+  margin-top: 25%;
+  
+}
+
+.sectionhead{
+  text-align: center;
+  
+ 
+}
+
+.mainhead{
+  font-size: 40px;
+  font-weight: bold;
+}
+.subhead{
+  font-size: 25px;
+  color: rgb(4, 83, 4);
+}
+
+.subdiv{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 80px;
+  align-items:center;
+  margin-left: 100px;
+  text-align: center;
+  margin-right: 80px;
+  
+  
+}
+
+.image{
+  width: 80%;
+}
+
+.subdiv p {
+  text-align: justify;
+  font-weight: bold;
+}
+.description{
+  text-align: left;
+}
+.user{
+  
+  margin-top: 10px;
+  font-weight: bold;
+}
+#span{
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+/* -----------------------------------------------------Skills section ------------------------------------------------------------------- */
